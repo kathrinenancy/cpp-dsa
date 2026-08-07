@@ -1,3 +1,36 @@
+/*
+Problem: Reverse Polish Notation (RPN)
+
+Description:
+A research lab uses an old stack-based calculator that cannot evaluate
+normal infix expressions such as:
+
+    a + (b - c)
+
+Instead, the calculator uses Reverse Polish Notation (RPN).
+
+How the calculator works:
+1. Symbols are read from left to right.
+2. When an operand (letter) is encountered, it is pushed onto a stack.
+3. When an operator is encountered, the calculator:
+   - Pops the last two operands from the stack.
+   - Applies the operator to them.
+   - Pushes the result back onto the stack.
+
+Properties of RPN:
+- Operators appear after their operands.
+- Brackets are not required.
+- Every valid expression has exactly one RPN representation.
+
+Task:
+Process the given expression according to the rules of Reverse Polish
+Notation and determine the required result.
+
+Topic: Stack / C++ STL
+Concepts: stack, push, pop, string.
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
