@@ -1,3 +1,29 @@
+/*
+Problem: Maximum Points on a Line
+
+Description:
+You are given a set of points on a 2D plane. Each point is represented
+by its X and Y coordinates as [xi, yi].
+
+The task is to find the maximum number of points that can lie on the
+same straight line.
+
+In other words, determine the largest group of points that are
+perfectly aligned on a single straight line.
+
+Input:
+- An array of points, where each point is represented as [xi, yi].
+
+Output:
+- Return the maximum number of points that can be aligned on the same
+  straight line.
+
+Topic: Geometry / Hashing
+Concepts: coordinates, slope, map
+
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
